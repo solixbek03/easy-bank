@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "PublicSans" "san-serif";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+.container{
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}

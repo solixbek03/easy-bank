@@ -1,0 +1,68 @@
+
+.main{
+  // position: fixed;
+  // top: 0;
+  // right: 0;
+  // left: 0;
+  // bottom: 0;
+  // z-index: 1;
+  padding-top: 205px;
+  padding-bottom: 210px;
+  background-color: #F2F2F2;
+  background-image: url("../../images/hero-phones-desktop.png"),
+                    url("../../images/Path 6@2x.png"),
+                    url("../../images/Path\ 6\ Copy@2x.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 515px) 0px, calc(50% + 553px) 174px, calc(50% + 663px);
+  background-repeat: no-repeat;
+  background-size: auto, 1205px 676px;
+}
+
+.hero__content {
+  max-width: 447px;
+}
+
+.hero__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2d314d;
+}
+
+.hero__text {
+  margin: 0;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+@media only screen and (max-width:500px){
+  
+  .main{
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+  
+  .hero__heading {
+    width: 300px;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: -0.714286px;
+  }
+  
+  .hero__text {
+    width: 300px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+  }
+}
+
