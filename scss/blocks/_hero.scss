@@ -10,12 +10,10 @@
   padding-bottom: 210px;
   background-color: #F2F2F2;
   background-image: url("../../images/hero-phones-desktop.png"),
-                    url("../../images/Path 6@2x.png"),
-                    url("../../images/Path\ 6\ Copy@2x.png");
+  url("../../images/hero-bg-desktop.png");
+  background-position: calc(50% + 508px) -80px, calc(50% + 615px) 0;
   background-repeat: no-repeat;
-  background-position: calc(50% + 515px) 0px, calc(50% + 553px) 174px, calc(50% + 663px);
-  background-repeat: no-repeat;
-  background-size: auto, 1205px 676px;
+  background-size: auto, 1365px 900px;
 }
 
 .hero__content {
