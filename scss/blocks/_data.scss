@@ -58,12 +58,13 @@
 
 @media only screen and (max-width:540px) {
 
-  .data__content{
+  .data__content {
     padding-top: 88px;
+    padding-bottom: 88px;
     align-items: center;
   }
 
-  .data__content-list{
+  .data__content-list {
     flex-direction: column;
     align-items: center;
   }
