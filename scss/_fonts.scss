@@ -1,0 +1,45 @@
+
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/public-sans-v13-latin-100.eot'); 
+  src: local(''),
+        url('../fonts/public-sans-v13-latin-100.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/public-sans-v13-latin-100.woff2') format('woff2'), 
+        url('../fonts/public-sans-v13-latin-100.woff') format('woff'), 
+        url('../fonts/public-sans-v13-latin-100.ttf') format('truetype'), 
+        url('../fonts/public-sans-v13-latin-100.svg#PublicSans') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/public-sans-v13-latin-regular.eot'); 
+  src: local(''),
+        url('../fonts/public-sans-v13-latin-regular.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/public-sans-v13-latin-regular.woff2') format('woff2'), 
+        url('../fonts/public-sans-v13-latin-regular.woff') format('woff'), 
+        url('../fonts/public-sans-v13-latin-regular.ttf') format('truetype'), 
+        url('../fonts/public-sans-v13-latin-regular.svg#PublicSans') format('svg'); 
+}
+
+/* public-sans-100 - latin */
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local(''),
+        url('../fonts/public-sans-v13-latin-100.woff2') format('woff2'), 
+        url('../fonts/public-sans-v13-latin-100.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+        url('../fonts/public-sans-v13-latin-regular.woff2') format('woff2'), 
+        url('../fonts/public-sans-v13-latin-regular.woff') format('woff'); 
+}
